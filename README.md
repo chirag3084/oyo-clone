@@ -26,6 +26,10 @@ DB_PASSWORD=your_password
 DB_HOST=localhost
 DB_PORT=5432
 
+python manage.py makemigrations
+python manage.py migrate
+
+
 
 
 
