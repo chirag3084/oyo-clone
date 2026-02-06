@@ -18,4 +18,14 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+DEBUG=True
+SECRET_KEY=your_secret_key_here
+DB_NAME=oyo_db
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+
+
+
 
