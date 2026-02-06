@@ -7,3 +7,11 @@ Open your terminal and clone the codebase:
 ```bash
 git clone [https://github.com/LordZeusIsBack/OYO-Clone.git](https://github.com/LordZeusIsBack/OYO-Clone.git)
 cd OYO-Clone
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
